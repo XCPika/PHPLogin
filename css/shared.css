@@ -1,0 +1,92 @@
+.form-container {
+    width: 35vw;
+    padding: 2vh 3vh;
+    height: fit-content;
+    background-color: rgb(58, 58, 58);
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 2vh 0;
+    font-size: 1.5rem;
+}
+
+.label-text {
+    font-weight: normal;
+    padding-bottom: 1vh;
+}
+
+.label-text-dark {
+    padding-bottom: 1vh;
+    color: black;
+}
+
+.small-text {
+    font-weight: normal;
+    color: gray;
+    padding-top: 1vh;
+}
+
+.title-text {
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 0.1px;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #888;
+}
+
+.input {
+    padding: 1.5vh;
+    border: none;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.input-dark {
+    padding: 1.5vh;
+    border: none;
+    background: rgb(58, 58, 58);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+html {
+    margin: 0;
+}
+
+head {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 150, 150);
+    font-weight: bold;
+}
